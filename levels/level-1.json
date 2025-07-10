@@ -1,0 +1,71 @@
+{
+  "gridSize": {
+    "width": 3,
+    "height": 5
+  },
+  "inventorySize": 1,
+  "start": {
+    "cell": {
+      "x": 0,
+      "y": 0
+    },
+    "side": "top"
+  },
+  "end": {
+    "cell": {
+      "x": 2,
+      "y": 4
+    },
+    "side": "bottom"
+  },
+  "walls": [
+    {
+      "x": 1,
+      "y": 4,
+      "sides": [
+        "right"
+      ]
+    },
+    {
+      "x": 1,
+      "y": 1,
+      "sides": [
+        "right"
+      ]
+    },
+    {
+      "x": 2,
+      "y": 2,
+      "sides": [
+        "left"
+      ]
+    },
+    {
+      "x": 0,
+      "y": 1,
+      "sides": [
+        "bottom"
+      ]
+    }
+  ],
+  "objectives": [
+    {
+      "color": "orange",
+      "type": "box",
+      "status": "available",
+      "position": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "color": "orange",
+      "type": "dropoff",
+      "status": "available",
+      "position": {
+        "x": 1,
+        "y": 4
+      }
+    }
+  ]
+}

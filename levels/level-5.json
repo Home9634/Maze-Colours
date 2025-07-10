@@ -1,0 +1,180 @@
+{
+  "gridSize": {
+    "width": 6,
+    "height": 6
+  },
+  "inventorySize": 1,
+  "start": {
+    "cell": {
+      "x": 0,
+      "y": 0
+    },
+    "side": "left"
+  },
+  "end": {
+    "cell": {
+      "x": 0,
+      "y": 5
+    },
+    "side": "bottom"
+  },
+  "walls": [
+    {
+      "x": 0,
+      "y": 1,
+      "sides": [
+        "top"
+      ]
+    },
+    {
+      "x": 1,
+      "y": 1,
+      "sides": [
+        "top"
+      ]
+    },
+    {
+      "x": 2,
+      "y": 0,
+      "sides": [
+        "bottom"
+      ]
+    },
+    {
+      "x": 0,
+      "y": 2,
+      "sides": [
+        "bottom"
+      ]
+    },
+    {
+      "x": 2,
+      "y": 2,
+      "sides": [
+        "bottom"
+      ]
+    },
+    {
+      "x": 1,
+      "y": 2,
+      "sides": [
+        "bottom"
+      ]
+    },
+    {
+      "x": 3,
+      "y": 2,
+      "sides": [
+        "bottom"
+      ]
+    },
+    {
+      "x": 4,
+      "y": 2,
+      "sides": [
+        "bottom"
+      ]
+    },
+    {
+      "x": 1,
+      "y": 3,
+      "sides": [
+        "bottom"
+      ]
+    },
+    {
+      "x": 0,
+      "y": 4,
+      "sides": [
+        "right"
+      ]
+    },
+    {
+      "x": 1,
+      "y": 4,
+      "sides": [
+        "left",
+        "bottom"
+      ]
+    },
+    {
+      "x": 2,
+      "y": 4,
+      "sides": [
+        "left",
+        "right"
+      ]
+    },
+    {
+      "x": 3,
+      "y": 4,
+      "sides": [
+        "top",
+        "bottom"
+      ]
+    },
+    {
+      "x": 4,
+      "y": 4,
+      "sides": [
+        "left"
+      ]
+    }
+  ],
+  "objectives": [
+    {
+      "color": "orange",
+      "type": "box",
+      "status": "available",
+      "position": {
+        "x": 2,
+        "y": 0
+      }
+    },
+    {
+      "color": "orange",
+      "type": "box",
+      "status": "available",
+      "position": {
+        "x": 5,
+        "y": 0
+      }
+    },
+    {
+      "color": "orange",
+      "type": "box",
+      "status": "available",
+      "position": {
+        "x": 3,
+        "y": 5
+      }
+    },
+    {
+      "color": "orange",
+      "type": "dropoff",
+      "status": "available",
+      "position": {
+        "x": 0,
+        "y": 1
+      }
+    },
+    {
+      "color": "orange",
+      "type": "dropoff",
+      "status": "available",
+      "position": {
+        "x": 1,
+        "y": 3
+      }
+    },
+    {
+      "color": "orange",
+      "type": "dropoff",
+      "status": "available",
+      "position": {
+        "x": 4,
+        "y": 4
+      }
+    }
+  ]
+}

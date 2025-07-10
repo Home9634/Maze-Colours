@@ -1,0 +1,145 @@
+{
+  "gridSize": {
+    "width": 8,
+    "height": 4
+  },
+  "inventorySize": 1,
+  "start": {
+    "cell": {
+      "x": 7,
+      "y": 0
+    },
+    "side": "top"
+  },
+  "end": {
+    "cell": {
+      "x": 7,
+      "y": 3
+    },
+    "side": "bottom"
+  },
+  "walls": [
+    {
+      "x": 2,
+      "y": 1,
+      "sides": [
+        "top",
+        "bottom"
+      ]
+    },
+    {
+      "x": 3,
+      "y": 1,
+      "sides": [
+        "top"
+      ]
+    },
+    {
+      "x": 4,
+      "y": 1,
+      "sides": [
+        "top",
+        "bottom"
+      ]
+    },
+    {
+      "x": 5,
+      "y": 1,
+      "sides": [
+        "top",
+        "bottom"
+      ]
+    },
+    {
+      "x": 4,
+      "y": 2,
+      "sides": [
+        "bottom"
+      ]
+    },
+    {
+      "x": 5,
+      "y": 2,
+      "sides": [
+        "bottom"
+      ]
+    },
+    {
+      "x": 3,
+      "y": 3,
+      "sides": [
+        "top"
+      ]
+    },
+    {
+      "x": 2,
+      "y": 3,
+      "sides": [
+        "top"
+      ]
+    },
+    {
+      "x": 3,
+      "y": 2,
+      "sides": [
+        "top"
+      ]
+    }
+  ],
+  "objectives": [
+    {
+      "color": "orange",
+      "type": "box",
+      "status": "available",
+      "position": {
+        "x": 2,
+        "y": 1
+      }
+    },
+    {
+      "color": "orange",
+      "type": "box",
+      "status": "available",
+      "position": {
+        "x": 2,
+        "y": 3
+      }
+    },
+    {
+      "color": "orange",
+      "type": "box",
+      "status": "available",
+      "position": {
+        "x": 5,
+        "y": 2
+      }
+    },
+    {
+      "color": "orange",
+      "type": "dropoff",
+      "status": "available",
+      "position": {
+        "x": 2,
+        "y": 2
+      }
+    },
+    {
+      "color": "orange",
+      "type": "dropoff",
+      "status": "available",
+      "position": {
+        "x": 5,
+        "y": 1
+      }
+    },
+    {
+      "color": "orange",
+      "type": "dropoff",
+      "status": "available",
+      "position": {
+        "x": 5,
+        "y": 3
+      }
+    }
+  ]
+}

@@ -1,0 +1,132 @@
+{
+  "gridSize": {
+    "width": 8,
+    "height": 7
+  },
+  "inventorySize": 2,
+  "start": {
+    "cell": {
+      "x": 3,
+      "y": 0
+    },
+    "side": "top"
+  },
+  "end": {
+    "cell": {
+      "x": 4,
+      "y": 0
+    },
+    "side": "top"
+  },
+  "walls": [],
+  "objectives": [
+    {
+      "color": "green",
+      "type": "dropoff",
+      "status": "available",
+      "position": {
+        "x": 2,
+        "y": 3
+      }
+    },
+    {
+      "color": "green",
+      "type": "dropoff",
+      "status": "available",
+      "position": {
+        "x": 5,
+        "y": 3
+      }
+    },
+    {
+      "color": "green",
+      "type": "box",
+      "status": "available",
+      "position": {
+        "x": 2,
+        "y": 5
+      }
+    },
+    {
+      "color": "green",
+      "type": "box",
+      "status": "available",
+      "position": {
+        "x": 5,
+        "y": 5
+      }
+    },
+    {
+      "color": "red",
+      "type": "box",
+      "status": "available",
+      "position": {
+        "x": 3,
+        "y": 6
+      }
+    },
+    {
+      "color": "red",
+      "type": "box",
+      "status": "available",
+      "position": {
+        "x": 4,
+        "y": 6
+      }
+    },
+    {
+      "color": "red",
+      "type": "dropoff",
+      "status": "available",
+      "position": {
+        "x": 3,
+        "y": 5
+      }
+    },
+    {
+      "color": "red",
+      "type": "dropoff",
+      "status": "available",
+      "position": {
+        "x": 4,
+        "y": 5
+      }
+    },
+    {
+      "color": "orange",
+      "type": "dropoff",
+      "status": "available",
+      "position": {
+        "x": 6,
+        "y": 6
+      }
+    },
+    {
+      "color": "orange",
+      "type": "dropoff",
+      "status": "available",
+      "position": {
+        "x": 1,
+        "y": 6
+      }
+    },
+    {
+      "color": "orange",
+      "type": "box",
+      "status": "available",
+      "position": {
+        "x": 1,
+        "y": 4
+      }
+    },
+    {
+      "color": "orange",
+      "type": "box",
+      "status": "available",
+      "position": {
+        "x": 6,
+        "y": 4
+      }
+    }
+  ]
+}

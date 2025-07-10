@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Level Editor</title>
+    <link rel="stylesheet" href="editor.css">
+</head>
+
+<body>
+    <div class="editor-container">
+        <!-- TOOLBOX PANEL (LEFT) -->
+        <div class="panel toolbox">
+            <h2>Toolbox</h2>
+
+            <fieldset>
+                <legend>Grid Settings</legend>
+                <label>Width: <input type="number" id="grid-width" value="8"></label>
+                <label>Height: <input type="number" id="grid-height" value="8"></label>
+                <label>Inventory: <input type="number" id="inventory-size" value="2"></label>
+                <button id="create-grid-btn">Create/Resize Grid</button>
+            </fieldset>
+
+            <fieldset>
+                <legend>Painting Tools</legend>
+                <div class="tool-list">
+                    <label><input type="radio" name="tool" value="start_cell" checked> Start (Cell)</label>
+                    <label><input type="radio" name="tool" value="end_cell"> End (Cell)</label>
+                    <label><input type="radio" name="tool" value="start_edge"> Start (Edge)</label> <!-- NEW -->
+                    <label><input type="radio" name="tool" value="end_edge"> End (Edge)</label> <!-- NEW -->
+                    <label><input type="radio" name="tool" value="wall"> Walls</label>
+                    <label><input type="radio" name="tool" value="box"> Box</label>
+                    <label><input type="radio" name="tool" value="dropoff"> Drop-off</label>
+                    <label><input type="radio" name="tool" value="eraser"> Eraser</label>
+                </div>
+            </fieldset>
+
+            <fieldset id="color-options">
+                <legend>Objective Color</legend>
+                <select id="color-select">
+                    <option value="orange">Orange</option>
+                    <option value="yellow">Yellow</option>
+                    <option value="purple">Purple</option>
+                    <option value="blue">Blue</option>
+                    <option value="green">Green</option>
+                    <option value="red">Red</option>
+                </select>
+            </fieldset>
+        </div>
+
+        <!-- CANVAS PANEL (CENTER) -->
+        <div class="panel canvas-panel">
+            <canvas id="editor-canvas"></canvas>
+        </div>
+
+        <!-- JSON PANEL (RIGHT) -->
+        <div class="panel json-panel">
+            <h2>JSON Input/Output</h2>
+            <textarea id="json-output" placeholder="JSON will appear here..."></textarea>
+            <div class="json-buttons">
+                <button id="generate-btn">Generate JSON</button>
+                <button id="load-btn">Load from JSON</button>
+                <button id="download-btn">Download .json File</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- We can reuse our game's renderer and helpers! -->
+    <script type="module" src="js/editor.js"></script>
+</body>
+
+</html>

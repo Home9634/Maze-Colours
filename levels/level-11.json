@@ -1,0 +1,96 @@
+{
+  "gridSize": {
+    "width": 6,
+    "height": 8
+  },
+  "inventorySize": 2,
+  "start": {
+    "cell": {
+      "x": 2,
+      "y": 0
+    },
+    "side": "top"
+  },
+  "end": {
+    "cell": {
+      "x": 3,
+      "y": 0
+    },
+    "side": "top"
+  },
+  "walls": [],
+  "objectives": [
+    {
+      "color": "red",
+      "type": "dropoff",
+      "status": "available",
+      "position": {
+        "x": 1,
+        "y": 0
+      }
+    },
+    {
+      "color": "red",
+      "type": "box",
+      "status": "available",
+      "position": {
+        "x": 2,
+        "y": 4
+      }
+    },
+    {
+      "color": "green",
+      "type": "box",
+      "status": "available",
+      "position": {
+        "x": 3,
+        "y": 4
+      }
+    },
+    {
+      "color": "orange",
+      "type": "box",
+      "status": "available",
+      "position": {
+        "x": 1,
+        "y": 4
+      }
+    },
+    {
+      "color": "orange",
+      "type": "dropoff",
+      "status": "available",
+      "position": {
+        "x": 4,
+        "y": 6
+      }
+    },
+    {
+      "color": "green",
+      "type": "dropoff",
+      "status": "available",
+      "position": {
+        "x": 4,
+        "y": 0
+      }
+    },
+    {
+      "color": "blue",
+      "type": "dropoff",
+      "status": "available",
+      "position": {
+        "x": 1,
+        "y": 6
+      }
+    },
+    {
+      "color": "blue",
+      "type": "box",
+      "status": "available",
+      "position": {
+        "x": 4,
+        "y": 4
+      }
+    }
+  ]
+}

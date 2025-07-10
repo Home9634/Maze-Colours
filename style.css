@@ -1,0 +1,144 @@
+body {
+    background-color: #1a1a1a;
+    color: #f0f0f0;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding-top: 2rem;
+}
+
+#game-container {
+    margin-bottom: 1rem;
+
+    /* Turn the container into a centering flexbox */
+    display: flex;
+    justify-content: center;
+}
+
+#game-canvas {
+    display: block;
+    cursor: pointer;
+    border: 2px solid #555;
+    background-color: #222;
+    /* No margin: auto needed here if you use this method */
+}
+
+.controls {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+#reset-button {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+}
+
+#reset-button:hover {
+    background-color: #45a049;
+}
+
+#undo-button {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+    background-color: #ff9800;
+    /* An orange color */
+    color: white;
+    border: none;
+    border-radius: 4px;
+}
+
+#undo-button:hover {
+    background-color: #f57c00;
+}
+
+/* --- Inventory Styles --- */
+.inventory-container {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-left: 1.5rem;
+    /* Add some space from the level text */
+}
+
+#inventory-display {
+    display: flex;
+    gap: 0.5rem;
+    padding: 0.3rem;
+    border: 1px solid #555;
+    border-radius: 4px;
+    background-color: #2a2a2a;
+}
+
+.inventory-slot {
+    width: 30px;
+    height: 30px;
+    border: 2px dashed #777;
+    /* Dashed to show it's an empty slot */
+    border-radius: 4px;
+    box-sizing: border-box;
+    /* Ensures padding/border are inside the width/height */
+}
+
+.hidden {
+    display: none !important;
+}
+
+/* --- Level Select Screen --- */
+#level-select-view {
+    text-align: center;
+}
+
+.level-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    max-width: 600px;
+    margin-top: 2rem;
+}
+
+.level-button {
+    width: 80px;
+    height: 80px;
+    background-color: #333;
+    border: 2px solid #555;
+    border-radius: 8px;
+    color: #f0f0f0;
+    font-size: 2rem;
+    font-weight: bold;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.2s, transform 0.2s;
+}
+
+.level-button:hover {
+    background-color: #4CAF50;
+    transform: scale(1.05);
+}
+
+/* --- New Menu Button Style --- */
+#back-to-menu-button {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+    background-color: #607d8b;
+    /* A neutral blue-grey */
+    color: white;
+    border: none;
+    border-radius: 4px;
+}
+
+#back-to-menu-button:hover {
+    background-color: #546e7a;
+}

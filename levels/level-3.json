@@ -1,0 +1,131 @@
+{
+  "gridSize": {
+    "width": 7,
+    "height": 4
+  },
+  "inventorySize": 1,
+  "start": {
+    "cell": {
+      "x": 3,
+      "y": 0
+    },
+    "side": "top"
+  },
+  "end": {
+    "cell": {
+      "x": 3,
+      "y": 3
+    },
+    "side": "bottom"
+  },
+  "walls": [
+    {
+      "x": 3,
+      "y": 2,
+      "sides": [
+        "bottom",
+        "top",
+        "right"
+      ]
+    },
+    {
+      "x": 2,
+      "y": 2,
+      "sides": [
+        "bottom",
+        "left",
+        "top"
+      ]
+    },
+    {
+      "x": 5,
+      "y": 1,
+      "sides": [
+        "top",
+        "right",
+        "bottom"
+      ]
+    },
+    {
+      "x": 4,
+      "y": 1,
+      "sides": [
+        "right"
+      ]
+    }
+  ],
+  "objectives": [
+    {
+      "color": "orange",
+      "type": "box",
+      "status": "available",
+      "position": {
+        "x": 0,
+        "y": 3
+      }
+    },
+    {
+      "color": "orange",
+      "type": "box",
+      "status": "available",
+      "position": {
+        "x": 2,
+        "y": 0
+      }
+    },
+    {
+      "color": "orange",
+      "type": "box",
+      "status": "available",
+      "position": {
+        "x": 4,
+        "y": 0
+      }
+    },
+    {
+      "color": "orange",
+      "type": "box",
+      "status": "available",
+      "position": {
+        "x": 6,
+        "y": 3
+      }
+    },
+    {
+      "color": "orange",
+      "type": "dropoff",
+      "status": "available",
+      "position": {
+        "x": 4,
+        "y": 3
+      }
+    },
+    {
+      "color": "orange",
+      "type": "dropoff",
+      "status": "available",
+      "position": {
+        "x": 2,
+        "y": 3
+      }
+    },
+    {
+      "color": "orange",
+      "type": "dropoff",
+      "status": "available",
+      "position": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "color": "orange",
+      "type": "dropoff",
+      "status": "available",
+      "position": {
+        "x": 6,
+        "y": 0
+      }
+    }
+  ]
+}

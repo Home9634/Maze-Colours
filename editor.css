@@ -1,0 +1,72 @@
+body {
+    background-color: #2a2a2a;
+    color: #f0f0f0;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 1rem;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+.editor-container {
+    display: flex;
+    gap: 1rem;
+    height: 100%;
+}
+
+.panel {
+    background-color: #333;
+    border-radius: 8px;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.toolbox { flex: 1; }
+.canvas-panel { flex: 3; align-items: center; justify-content: center; background-color: #1a1a1a; }
+.json-panel { flex: 2; }
+
+/* Toolbox Styles */
+fieldset {
+    border: 1px solid #555;
+    margin-bottom: 1rem;
+    padding: 0.8rem;
+}
+legend { color: #4CAF50; font-weight: bold; }
+.tool-list label, .toolbox label { display: block; margin-bottom: 0.5rem; }
+input[type="number"], select { width: 80px; background: #444; color: #fff; border: 1px solid #666; padding: 4px; }
+button {
+    width: 100%;
+    padding: 0.7rem;
+    font-size: 1rem;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    margin-top: 0.5rem;
+}
+button:hover { background-color: #45a049; }
+input[type="radio"]:checked + label { color: #ffeb3b; font-weight: bold; }
+
+/* Canvas Styles */
+#editor-canvas { background-color: #222; border: 2px solid #555; }
+
+/* JSON Panel Styles */
+#json-output {
+    flex-grow: 1;
+    width: 100%;
+    box-sizing: border-box;
+    background: #1a1a1a;
+    color: #f0f0f0;
+    border: 1px solid #555;
+    font-family: monospace;
+    font-size: 0.9rem;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+}
+.json-buttons { display: flex; gap: 0.5rem; }
+#load-btn { background-color: #ff9800; }
+#load-btn:hover { background-color: #f57c00; }
+#download-btn { background-color: #2196f3; }
+#download-btn:hover { background-color: #1976d2; }

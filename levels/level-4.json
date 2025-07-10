@@ -1,0 +1,355 @@
+{
+  "gridSize": {
+    "width": 11,
+    "height": 7
+  },
+  "inventorySize": 1,
+  "start": {
+    "cell": {
+      "x": 10,
+      "y": 0
+    },
+    "side": "right"
+  },
+  "end": {
+    "cell": {
+      "x": 10,
+      "y": 6
+    },
+    "side": "right"
+  },
+  "walls": [
+    {
+      "x": 9,
+      "y": 1,
+      "sides": [
+        "right",
+        "bottom"
+      ]
+    },
+    {
+      "x": 10,
+      "y": 2,
+      "sides": [
+        "left"
+      ]
+    },
+    {
+      "x": 10,
+      "y": 3,
+      "sides": [
+        "left"
+      ]
+    },
+    {
+      "x": 9,
+      "y": 3,
+      "sides": [
+        "left"
+      ]
+    },
+    {
+      "x": 9,
+      "y": 4,
+      "sides": [
+        "right"
+      ]
+    },
+    {
+      "x": 9,
+      "y": 5,
+      "sides": [
+        "right"
+      ]
+    },
+    {
+      "x": 9,
+      "y": 2,
+      "sides": [
+        "top"
+      ]
+    },
+    {
+      "x": 8,
+      "y": 1,
+      "sides": [
+        "bottom",
+        "left"
+      ]
+    },
+    {
+      "x": 7,
+      "y": 2,
+      "sides": [
+        "top"
+      ]
+    },
+    {
+      "x": 6,
+      "y": 2,
+      "sides": [
+        "top",
+        "left"
+      ]
+    },
+    {
+      "x": 5,
+      "y": 1,
+      "sides": [
+        "left"
+      ]
+    },
+    {
+      "x": 6,
+      "y": 1,
+      "sides": [
+        "left"
+      ]
+    },
+    {
+      "x": 6,
+      "y": 0,
+      "sides": [
+        "right"
+      ]
+    },
+    {
+      "x": 9,
+      "y": 0,
+      "sides": [
+        "left"
+      ]
+    },
+    {
+      "x": 6,
+      "y": 3,
+      "sides": [
+        "top"
+      ]
+    },
+    {
+      "x": 7,
+      "y": 3,
+      "sides": [
+        "top"
+      ]
+    },
+    {
+      "x": 8,
+      "y": 3,
+      "sides": [
+        "top"
+      ]
+    },
+    {
+      "x": 8,
+      "y": 4,
+      "sides": [
+        "right"
+      ]
+    },
+    {
+      "x": 8,
+      "y": 5,
+      "sides": [
+        "top"
+      ]
+    },
+    {
+      "x": 7,
+      "y": 5,
+      "sides": [
+        "top",
+        "bottom"
+      ]
+    },
+    {
+      "x": 6,
+      "y": 4,
+      "sides": [
+        "bottom"
+      ]
+    },
+    {
+      "x": 5,
+      "y": 4,
+      "sides": [
+        "bottom"
+      ]
+    },
+    {
+      "x": 1,
+      "y": 5,
+      "sides": [
+        "bottom"
+      ]
+    },
+    {
+      "x": 2,
+      "y": 5,
+      "sides": [
+        "bottom"
+      ]
+    },
+    {
+      "x": 3,
+      "y": 5,
+      "sides": [
+        "left"
+      ]
+    },
+    {
+      "x": 4,
+      "y": 4,
+      "sides": [
+        "bottom"
+      ]
+    },
+    {
+      "x": 3,
+      "y": 4,
+      "sides": [
+        "bottom"
+      ]
+    },
+    {
+      "x": 0,
+      "y": 4,
+      "sides": [
+        "right"
+      ]
+    },
+    {
+      "x": 0,
+      "y": 3,
+      "sides": [
+        "right"
+      ]
+    },
+    {
+      "x": 1,
+      "y": 3,
+      "sides": [
+        "top"
+      ]
+    },
+    {
+      "x": 2,
+      "y": 3,
+      "sides": [
+        "top"
+      ]
+    },
+    {
+      "x": 3,
+      "y": 3,
+      "sides": [
+        "top"
+      ]
+    },
+    {
+      "x": 1,
+      "y": 1,
+      "sides": [
+        "bottom"
+      ]
+    },
+    {
+      "x": 2,
+      "y": 1,
+      "sides": [
+        "bottom"
+      ]
+    },
+    {
+      "x": 3,
+      "y": 2,
+      "sides": [
+        "top"
+      ]
+    },
+    {
+      "x": 0,
+      "y": 0,
+      "sides": [
+        "bottom"
+      ]
+    },
+    {
+      "x": 1,
+      "y": 0,
+      "sides": [
+        "bottom"
+      ]
+    },
+    {
+      "x": 2,
+      "y": 0,
+      "sides": [
+        "bottom"
+      ]
+    },
+    {
+      "x": 3,
+      "y": 0,
+      "sides": [
+        "bottom"
+      ]
+    },
+    {
+      "x": 5,
+      "y": 0,
+      "sides": [
+        "left"
+      ]
+    },
+    {
+      "x": 5,
+      "y": 5,
+      "sides": [
+        "bottom"
+      ]
+    },
+    {
+      "x": 6,
+      "y": 5,
+      "sides": [
+        "bottom"
+      ]
+    },
+    {
+      "x": 4,
+      "y": 6,
+      "sides": [
+        "top"
+      ]
+    },
+    {
+      "x": 8,
+      "y": 6,
+      "sides": [
+        "top"
+      ]
+    }
+  ],
+  "objectives": [
+    {
+      "color": "orange",
+      "type": "box",
+      "status": "available",
+      "position": {
+        "x": 1,
+        "y": 5
+      }
+    },
+    {
+      "color": "orange",
+      "type": "dropoff",
+      "status": "available",
+      "position": {
+        "x": 4,
+        "y": 1
+      }
+    }
+  ]
+}
