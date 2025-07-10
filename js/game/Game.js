@@ -39,7 +39,8 @@ export class Game {
         // ... loadLevel logic is mostly the same ...
         this.currentLevel = levelNumber;
         try {
-            const response = await fetch(`../levels/level-${levelNumber}.json`);
+            const response = await fetch(`levels/level-${levelNumber}.json`);
+
             if (!response.ok) throw new Error(`Level ${levelNumber} not found`);
             this.levelData = await response.json();
 
