@@ -36,7 +36,6 @@ export class Game {
     }
 
     async loadLevel(levelNumber) {
-        // ... loadLevel logic is mostly the same ...
         this.currentLevel = levelNumber;
         try {
             const response = await fetch(`levels/level-${levelNumber}.json`);
@@ -124,15 +123,14 @@ export class Game {
     }
 
     initEventListeners() {
-        this.canvas.addEventListener('mousedown', this.handleMouseDown.bind(this));
-        this.canvas.addEventListener('mousemove', this.handleMouseMove.bind(this));
-        this.canvas.addEventListener('mouseup', this.handleMouseUp.bind(this));
-        this.canvas.addEventListener('mouseleave', this.handleMouseLeave.bind(this));
+        // Replace all mouse events with pointer events
+        this.canvas.addEventListener('pointerdown', this.handlePointerDown.bind(this));
+        this.canvas.addEventListener('pointermove', this.handlePointerMove.bind(this));
+        this.canvas.addEventListener('pointerup', this.handlePointerUp.bind(this));
+        this.canvas.addEventListener('pointerleave', this.handlePointerLeave.bind(this));
 
-        // Listen for keyboard events on the whole window
+        // Keyboard and button listeners remain the same
         window.addEventListener('keydown', this.handleKeyDown.bind(this));
-
-        // Listen for clicks on the new button
         document.getElementById('undo-button').addEventListener('click', this.undoLastStep.bind(this));
         document.getElementById('reset-button').addEventListener('click', this.resetLevel.bind(this));
     }
@@ -146,7 +144,7 @@ export class Game {
         }
     }
 
-    getMousePos(event) {
+    getPointerPos(event) {
         const rect = this.canvas.getBoundingClientRect();
         return { x: event.clientX - rect.left, y: event.clientY - rect.top };
     }
@@ -166,10 +164,10 @@ export class Game {
         return null;
     }
 
-    handleMouseDown(event) {
+    handlePointerDown(event) {
         if (this.isDrawing) return;
 
-        const mousePos = this.getMousePos(event);
+        const mousePos = this.getPointerPos(event);
 
         if (this.pathHistory.length === 0) {
             const start = this.levelData.start;
@@ -213,10 +211,12 @@ export class Game {
     }
 
 
-    handleMouseMove(event) {
+    handlePointerMove(event) {
         if (!this.isDrawing) return;
 
-        const mousePos = this.getMousePos(event);
+        event.preventDefault(); 
+
+        const mousePos = this.getPointerPos(event);
         const currentCell = getGridCoordinates(event, this.canvas, this.cellSize);
         if (!currentCell) return;
 
@@ -351,6 +351,6 @@ export class Game {
     }
 
 
-    handleMouseUp(event) { this.isDrawing = false; }
-    handleMouseLeave(event) { this.isDrawing = false; }
+    handlePointerUp(event) { this.isDrawing = false; }
+    handlePointerLeave(event) { this.isDrawing = false; }
 }
